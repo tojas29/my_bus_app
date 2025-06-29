@@ -269,12 +269,15 @@ int main()
     } while (flag != 1);
     if (flag == 1)
     {
-        string stations[24] = {
-    "Station A", "Station B", "Station C", "Station D", "Station E", "Station F",
-    "Station G", "Station H", "Station I", "Station J", "Station K", "Station L",
-    "Station M", "Station N", "Station O", "Station P", "Station Q", "Station R",
-    "Station S", "Station T", "Station U", "Station V", "Station W", "Station X"
-};
+//         string stations[24] = {
+//     "Station A", "Station B", "Station C", "Station D", "Station E", "Station F",
+//     "Station G", "Station H", "Station I", "Station J", "Station K", "Station L",
+//     "Station M", "Station N", "Station O", "Station P", "Station Q", "Station R",
+//     "Station S", "Station T", "Station U", "Station V", "Station W", "Station X"
+// };
+        string stations[24] = {"Jalukbari ", "Adabari ", "Maligaon Chariali ", "Maligaon Gate-3 ", "Kamakhya Gate ", "Bhootnath ", "Santipur ", "Bharalumukh ", "Machkhowa ", "Fancybazar ", "Panbazar ", "Kachari ", "Guwahati High Court ",
+                               "Reserve Bank ", "Lakhtokia ", "Vishal AT Road ", "Paltanbazar ", "Apsara ", "Ulubari ", "Lachitnagar ", "Bora Service ", "Bhangagarh ", "Christianbasti ", "Post Office "};
+        
 
         char x;
         cout << "\n\n\n\n\n\n\t\t\t\t\t  \xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb " << endl;
